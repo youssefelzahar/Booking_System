@@ -15,7 +15,7 @@ class Review extends Model
         'user_id',
         'business_id',
         'review',
-        'status'
+        'stars'
     ];
 
     public function user(){

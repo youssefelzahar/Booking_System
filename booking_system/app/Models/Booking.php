@@ -21,7 +21,7 @@ class Booking extends Model
     }
 
     public function service(){
-        return $this->belongsTo(services::class);
+        return $this->belongsTo(Service::class);
     }
 
 }
