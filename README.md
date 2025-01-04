@@ -61,17 +61,6 @@ The Booking System is a web application designed to manage reservations efficien
    http://localhost:8000
    ```
 
-## API Endpoints
-
-| Method | Endpoint                | Description                   |
-|--------|-------------------------|-------------------------------|
-| GET    | /api/bookings           | List all bookings             |
-| POST   | /api/bookings           | Create a new booking          |
-| GET    | /api/bookings/{id}      | Retrieve a specific booking   |
-| PUT    | /api/bookings/{id}      | Update a booking              |
-| DELETE | /api/bookings/{id}      | Delete a booking              |
-
-Add endpoints as required for user and admin functionalities.
 
 ## Testing
 
